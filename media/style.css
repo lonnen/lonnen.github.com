@@ -165,9 +165,9 @@ article > header {
 
 section h1,
 article header h1 {
-    font-size: 36px;
+    font-size: 28px;
     font-family: Droid, Georgia, serif;
-    line-height: 36px;
+    line-height: 28px;
     color: #332411;
 }
 
@@ -186,8 +186,8 @@ article header h1 + .byline {
 }
 
 article h2 {
-    line-height: 28px;
-    font-size: 28px;
+    line-height: 22px;
+    font-size: 22px;
     margin-bottom: 8px;
     margin-top: 12px;
 }
