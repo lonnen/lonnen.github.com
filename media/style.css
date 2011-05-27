@@ -164,7 +164,7 @@ p + ul {
 /** Misc **/
 
 p + p,
-p + div {
+.gist {
     margin-top: 18px;
 }
 
