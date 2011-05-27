@@ -11,4 +11,4 @@ I dug up the old formula from a prior version of the repo (version control seems
 
 Until the formula comes back, feel free to use the attached copy of the old one. After it reappears, I would use the more current version in the main repository.   
 
-<script src="http://gist.github.com/765545"></script>
+<script src="https://gist.github.com/765545.js"> </script>
