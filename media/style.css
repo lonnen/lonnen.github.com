@@ -163,7 +163,8 @@ p + ul {
 
 /** Misc **/
 
-p + p {
+p + p,
+p + div {
     margin-top: 18px;
 }
 
