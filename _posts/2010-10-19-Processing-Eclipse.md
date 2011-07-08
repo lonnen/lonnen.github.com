@@ -1,5 +1,5 @@
 ---
-title: "Processing && Eclipse"
+title: "Processing &amp;&amp; Eclipse"
 layout: post
 ---
 
