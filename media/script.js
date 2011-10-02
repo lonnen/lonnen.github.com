@@ -16,7 +16,7 @@ makeScript(src);
 
 
 /** Github projects **/
-var names = ['socorro','scottbot','processing-js','Introspecting'];
+var names = ['socorro','socorro-vagrant','scottbot','processing-js','Introspecting','timbermill'];
 var project_el = document.querySelector('#projects')
 if (project_el) {
     var github = 'http://github.com/api/v1/json/lonnen/';
