@@ -9,7 +9,7 @@ A little digging revealed that there used to be an autoconf213 formula, but it w
 
 I dug up the old formula from a prior version of the repo (version control seems magical, sometimes) and dropped it in my `/Library/Formula` folder, after which I ran `brew install autoconf`. The formula is 'keg-only', meaning it doesn't get linked for general use. Running `brew link autoconf` created the appropriate symlinks and the Firefox build ran smoothly.
 
-NOTE: instead of storing it locally, you can install using `brew install https://raw.github.com/gist/765545/c87a75f2cf9e26c153970522e227f1c1cf63fb81/autoconf213.rb`. Afterwards you will still need to link it.
+NOTE: instead of storing it locally, you can install using `brew install http://bit.ly/autoconf213`. Afterwards you will still need to link it.
 
 Until the formula comes back, feel free to use the attached copy of the old one. After it reappears, I would use the more current version in the main repository.
 
