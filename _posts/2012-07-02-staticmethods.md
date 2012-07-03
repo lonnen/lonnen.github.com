@@ -3,7 +3,7 @@ title: "Static methods and inheritance"
 layout: post
 ---
 
-My colleague Peter Bengtsson recently published a [blog post](http://www.peterbe.com/plog/newfound-love-of-staticmethod) about the @staticmethod decorator introduced in Python 2.2. Specifically, he argues that @staticmethod is useful for functions called exclusively from object methods, where a developer may want to change the object's behavior by overriding that static method in a subclass. Take a minute to skim his short post (linked above) and familiarize yourself with the context.
+My colleague Peter Bengtsson recently published a blog post about the @staticmethod decorator introduced in Python 2.2. Specifically, he argues that @staticmethod is useful for functions called exclusively from object methods, where a developer may want to change the object's behavior by overriding that static method in a subclass. Take a minute to skim his [short post](http://www.peterbe.com/plog/newfound-love-of-staticmethod) and familiarize yourself with the context.
 
 If, like me, you're are not a fan of `@staticmethod` you'd be tempted to define `newlines` as a function outside the class as Peter did in the second example. Naively then, to change the behavior of the subclass you might try:
 
