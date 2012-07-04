@@ -28,4 +28,4 @@ This cuts down the examples to 4 lines of code and increases readability by remo
 
 <script src="https://gist.github.com/3037148.js"> </script>
 
-The more printer's you require, the more this method pays off. The factory method is one-fourth the size of the above base class, and each new printer function is defined in one-third the size of a subclass, with equivalent functionality; which answers Peter's challenge toward the end of the article: "How would you do this neatly without OO?"
+The more printers you require, the more this method pays off. The factory method is one-fourth the size of the above base class, and each new printer function is defined in one-third the size of a subclass, with equivalent functionality; which answers Peter's challenge toward the end of the article: "How would you do this neatly without OO?"
