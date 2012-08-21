@@ -32,11 +32,11 @@ var _gauges = _gauges || [];
 var names = ['socorro','socorro-vagrant','scottbot','processing-js','Introspecting','timbermill'];
 var project_el = document.querySelector('#projects')
 if (project_el) {
-    var github = 'http://github.com/api/v1/json/lonnen/';
+    var github = 'https://api.github.com/users/Lonnen/repos';
     var projects = {};
 
     var loadProjects = function(json) {
-        var repos = json.user.repositories;
+        var repos = json.data;
         for (var i in repos) {
             repo = repos[i];
             projects[repo.name] = repo;
