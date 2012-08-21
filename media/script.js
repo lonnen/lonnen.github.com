@@ -46,7 +46,7 @@ if (project_el) {
         for (var i in names) {
             var name = names[i],
                 p = projects[name],
-                dt = '<dt><a href="' + p.url + '">' + name + '</a></dt>';
+                dt = '<dt><a href="' + p.html_url + '">' + name + '</a></dt>';
             dts.push(dt + '<dd>' + p.description + '</dd>');
         }
         project_el.innerHTML += '<dl>' + dts.join('') + '</dl>';
