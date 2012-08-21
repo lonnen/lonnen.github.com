@@ -29,7 +29,8 @@ var _gauges = _gauges || [];
 // end
 
 /** Github projects **/
-var names = ['socorro','socorro-vagrant','scottbot','processing-js','Introspecting','timbermill'];
+var names = ['socorro','processing-js','graphite.js','more-itertools',
+             'datazine','Introspecting','timbermill','scottbot'];
 var project_el = document.querySelector('#projects')
 if (project_el) {
     var github = 'https://api.github.com/users/Lonnen/repos';
