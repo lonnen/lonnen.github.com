@@ -117,7 +117,7 @@ section {
 }
 
 article header h1 + .byline {
-    line-height: 18px;
+    line-height: 24px;
     font-size: 14px;
     color: #555;
 }
@@ -161,6 +161,11 @@ p + ul {
 }
 
 /** Misc **/
+
+blockquote {
+    color: rgba(72, 51, 24, 6);
+    padding: .6em;
+}
 
 p + p,
 blockquote + p,
