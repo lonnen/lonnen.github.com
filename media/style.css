@@ -163,7 +163,7 @@ p + ul {
 /** Misc **/
 
 blockquote {
-    color: rgba(72, 51, 24, 6);
+    color: rgba(72, 51, 24, .6);
     padding: .6em;
 }
 
