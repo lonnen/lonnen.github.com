@@ -163,6 +163,7 @@ p + ul {
 /** Misc **/
 
 p + p,
+blockquote + p,
 .gist {
     margin-top: 18px;
 }
