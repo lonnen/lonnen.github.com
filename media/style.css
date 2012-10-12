@@ -238,3 +238,9 @@ pre {
     text-align: right;
     width: 2.5ex;
 }
+
+.warning {
+    background: rgba(230, 230, 0, .3);
+    padding: .2em;
+    border: 1px dashed rgb(72, 51, 24);
+}
