@@ -52,8 +52,14 @@ table {
 /** Normal stying. **/
 
 @font-face {
-    font-family: "Droid";
-    src: url(DroidSans.ttf);
+    font-family: "LiberationMonoRegular", sans-serif;
+    src: url('LiberationMono-Regular-webfont.eot');
+    src: url('LiberationMono-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LiberationMono-Regular-webfont.woff') format('woff'),
+         url('LiberationMono-Regular-webfont.ttf') format('truetype'),
+         url('LiberationMono-Regular-webfont.svg#LiberationMonoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -71,7 +77,7 @@ body {
     padding: 20px 0 0;
     border-top: 8px solid;
     line-height: 24px;
-    font-family: Droid, Georgia, serif;
+    font-family: LiberationMonoRegular, Georgia, serif;
 }
 
 body.grid {
@@ -103,7 +109,7 @@ article > header {
 section h1,
 article header h1 {
     font-size: 28px;
-    font-family: Droid, Georgia, serif;
+    font-family: LiberationMonoRegular, Georgia, serif;
     line-height: 28px;
     color: #332411;
 }
