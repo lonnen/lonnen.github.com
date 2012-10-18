@@ -251,7 +251,7 @@ pre {
     border: 1px dashed rgb(72, 51, 24);
 }
 
-footer {
+.footer {
     font-size: 80%;
     color: rgb(102, 102, 102);
     border-top: 4px solid;
