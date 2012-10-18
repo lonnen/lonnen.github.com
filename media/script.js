@@ -27,28 +27,3 @@ var _gauges = _gauges || [];
     s.parentNode.insertBefore(t, s);
 })();
 // end
-
-/** Github projects **/
-var names = ['socorro','processing-js','graphite.js','more-itertools', 'datazine'];
-var project_el = document.querySelector('#projects')
-if (project_el) {
-    var github = 'https://api.github.com/users/Lonnen/repos';
-    var projects = {};
-
-    var loadProjects = function(json) {
-        var repos = json.data;
-        for (var i in repos) {
-            repo = repos[i];
-            projects[repo.name] = repo;
-        }
-        dts = []
-        for (var i in names) {
-            var name = names[i],
-                p = projects[name],
-                dt = '<dt><a href="' + p.html_url + '">' + name + '</a></dt>';
-            dts.push(dt + '<dd>' + p.description + '</dd>');
-        }
-        project_el.innerHTML += '<dl>' + dts.join('') + '</dl>';
-    };
-    makeScript(github + '?callback=loadProjects');
-}
