@@ -252,6 +252,7 @@ pre {
     margin-top: 2em;
     overflow: hidden;
     width: 100%;
+    padding-top: 0.4em;
 }
 
 .contact {
