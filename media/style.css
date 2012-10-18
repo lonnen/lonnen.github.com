@@ -152,10 +152,6 @@ a:visited {
 
 /** Lists **/
 
-ul {
-    text-indent: -6px;
-}
-
 p + ul {
     margin: 12px 0;
 }
