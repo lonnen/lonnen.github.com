@@ -156,12 +156,6 @@ ul {
     text-indent: -6px;
 }
 
-ul li:before {
-    content: "▪ ";
-    font-size: 10px;
-    line-height: 10px;
-}
-
 p + ul {
     margin: 12px 0;
 }
@@ -257,6 +251,7 @@ pre {
     border-top: 4px solid;
     margin-top: 2em;
     overflow: hidden;
+    width: 100%;
 }
 
 .contact {
@@ -265,7 +260,7 @@ pre {
 }
 
 .rss {
-    margin-top: 1.1em;
-    margin-right: -0.2em;
+    margin-top: 0.4em;
+    margin-right: 0.4em;
     float: right;
 }
