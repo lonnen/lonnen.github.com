@@ -7,38 +7,7 @@ November and December have been a period of heavy investment in creating or enha
 
 The Mozilla Ops group uses [Puppet](http://puppetlabs.com/) to automate large portions of our architecture, so it seemed the natural choice for our Vagrant VMs. Puppet is a declarative, object-oriented DSL with many built-in resource types. There are primitives for installing packages, running services, and copying whole files onto the VM. Declare the resources you need along with their dependencies and Puppet figures out the application order. Take a look at a basic manifest taken from the DXR project, containing a single class:
 
-```puppet
-class apache {
-    package { "apache2-dev":
-        ensure => present,
-        before => File['/etc/apache2/sites-enabled/dxr.conf'];
-    }
-
-    file { "/etc/apache2/sites-enabled/dxr.conf":
-        source => "$PROJ_DIR/puppet/files/etc/httpd/conf.d/dxr.conf",
-        owner => "root", group => "root", mode => 0644,
-        require => [
-            Package['apache2-dev']
-        ];
-    }
-
-    exec {
-        'a2enmod rewrite':
-        onlyif => 'test ! -e /etc/apache2/mods-enabled/rewrite.load';
-        'a2enmod proxy':
-        onlyif => 'test ! -e /etc/apache2/mods-enabled/proxy.load';
-    }
-
-    service { "apache2":
-        ensure => running,
-        enable => true,
-        require => [
-            Package['apache2-dev'],
-            File['/etc/apache2/sites-enabled/dxr.conf']
-        ];
-    }
-}
-```
+<script src="https://gist.github.com/4378100.js"></script>
 
 This manifest will install the apache2-dev package, then copy an apache conf file from the DXR repository and set some permissions on it. Then it will start apache running as a service. Iff mod_rewrite and mod_proxy are present they will be enabled, though when those commands execute is not known. It is, however, consistent -- on multiple executions of Puppet the commands will execute in the same order.
 
@@ -52,11 +21,7 @@ Changing the Puppet manifests usually involves destroying and recreating your VM
 
 Furthermore, some of the design decisions in Puppet favor its primary use case -- large, daemonizaed deployments on production hardware -- to the detriment of single boxes. Errors tend to pass quietly. Puppet won't abort or even log information beyond that something failed without an explicit directive. To help with this, we include the following in our initialization manifest:
 
-```puppet
-Exec {
-    logoutput => on_failure,
-}
-```
+<script src="https://gist.github.com/4378109.js"></script>
 
 The capital `Exec` will set the option for the `exec` statements that follow. You'll still have to carefully read Vagrant's debug output, though.
 
