@@ -252,3 +252,10 @@ pre {
     margin-right: 0.4em;
     float: right;
 }
+
+.gist .gist-file .gist-data pre {
+    line-height: 20px;
+}
+.gist .gist-file .gist-data .line_numbers span {
+    line-height: 20px;
+}
