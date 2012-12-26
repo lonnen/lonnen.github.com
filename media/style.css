@@ -186,10 +186,6 @@ pre {
 .highlight {
     margin: 6px 0;
     padding: 6px 0;
-    background: #333;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
 }
 
 /** Homepage **/
