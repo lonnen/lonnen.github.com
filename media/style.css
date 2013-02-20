@@ -253,6 +253,12 @@ pre {
     float: right;
 }
 
+.idl {
+    margin-top: -10px;
+    float: right;
+    height: 100px;
+}
+
 .gist .gist-file .gist-data pre {
     line-height: 20px;
 }
