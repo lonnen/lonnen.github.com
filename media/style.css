@@ -254,9 +254,13 @@ pre {
 }
 
 .idl {
-    margin-top: -10px;
+    margin-top: 0.4em;
     float: right;
-    height: 100px;
+}
+
+.idl image {
+    height: 6em;
+    margin-top: -0.5em;
 }
 
 .gist .gist-file .gist-data pre {
