@@ -3,7 +3,7 @@ title: "Custom Error Responses in Flask"
 layout: post
 ---
 
-Update 2012-04-08: [there's a simpler way](http://xor.lonnen.com/2012/04/08/custom-flask-error-revisited.html)
+Update 2012-04-08: [there's a simpler way](http://xor.lonnen.com/2013/04/08/custom-flask-error-revisited.html)
 
 Python's [Flask framework](http://flask.pocoo.org/) leverages Werkzeug's HTTP exceptions module to make it easy to report error states in requests. The `abort` method works with most common HTTP status codes, but sometimes you may want to return a code that isn't implemented by Werkzeug.
 
