@@ -63,10 +63,15 @@ table {
 }
 
 @font-face {
-    font-family: "Inconsolata";
-    src: url(Inconsolata.otf);
+    font-family: 'UbuntuMonoRegular';
+    src: url('UbuntuMono-R-webfont.eot');
+    src: url('UbuntuMono-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('UbuntuMono-R-webfont.woff') format('woff'),
+         url('UbuntuMono-R-webfont.ttf') format('truetype'),
+         url('UbuntuMono-R-webfont.svg#UbuntuMonoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
 
 body {
     font-weight: normal;
@@ -170,7 +175,7 @@ blockquote + p,
 }
 
 code {
-    font-family: Inconsolata, monospace;
+    font-family: UbuntuMonoRegular, monospace;
     background-color: rgb(248, 248, 255);
     border: 1px solid rgb(221, 221, 221);
     padding: 2px;
@@ -191,6 +196,10 @@ pre {
 
 #posts ul li:before {
     content: none;
+}
+
+#posts time {
+    font-family: UbuntuMonoRegular, monospace;
 }
 
 #projects dt {
