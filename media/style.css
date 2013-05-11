@@ -82,7 +82,7 @@ body {
     padding: 20px 0 0;
     border-top: 8px solid;
     line-height: 24px;
-    font-family: LiberationMonoRegular, Georgia, serif;
+    font-family: UbuntuMonoRegular, sans-serif;
 }
 
 body.grid {
