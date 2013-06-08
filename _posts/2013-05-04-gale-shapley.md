@@ -53,8 +53,7 @@ Despite its imperfections, I believe the Greendale algorithm, above, could be us
 I hope this work can be of use finding an agreeable MozSummit matching for my team.
 
 
-footnotes
----------
+notes:
 
 1. The proof relies on induction and can be found in the original Gale-Shapley paper, linked above.
 
