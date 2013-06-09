@@ -128,9 +128,8 @@ article > header {
 section h1,
 article header h1 {
     font-size: 28px;
-    font-family: LiberationMonoRegular, Georgia, serif;
-    line-height: 28px;
     color: #332411;
+    margin: 5px 0;
 }
 
 section h1 {
