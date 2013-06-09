@@ -53,10 +53,10 @@ Despite its imperfections, I believe the Greendale algorithm, above, could be us
 I hope this work can be of use finding an agreeable MozSummit matching for my team.
 
 
+### Further Reading
 
+1. The proof relies on induction and can be found in the original Gale-Shapley paper, linked above.
 
-1 - The proof relies on induction and can be found in the original Gale-Shapley paper, linked above.
+2. I interpret all Mozilla employees as community members with pro sponsorships.
 
-2 - I interpret all Mozilla employees as community members with pro sponsorships.
-
-3 - In the worst case N people have identical preferences over N individual items, causing `sum(n..0)` iterations, which is bounded as `O(n**2)`
+3. In the worst case N people have identical preferences over N individual items, causing `sum(n..0)` iterations, which is bounded as `O(n**2)`
