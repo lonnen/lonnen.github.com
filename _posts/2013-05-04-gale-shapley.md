@@ -1,5 +1,5 @@
 ---
-title: "Six Seasons and a Stable Matching"
+title: "Applied Matching Algorithms"
 layout: post
 ---
 
@@ -59,4 +59,4 @@ I hope this work can be of use finding an agreeable MozSummit matching for my te
 
 2. I interpret all Mozilla employees as community members with pro sponsorships.
 
-3. In the worst case N people have identical preferences over N individual items, causing `sum(n..0)` iterations, which is bounded as `O(n**2)`
+3. In the worst case N people have identical preferences over N individual items, causing `sum(n..0)` iterations, which is bounded by `O(n**2)`
