@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/lonnen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://xor.lonnen.com
+  * I am lonnen (https://keybase.io/lonnen) on keybase.
+  * I have a public key with fingerprint 89FF CF4D 9348 5687 EB60  D46A F1E2 21EA D41C C35A
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "89ffcf4d93485687eb60d46af1e221ead41cc35a",
+            "host": "keybase.io",
+            "key_id": "F1E221EAD41CC35A",
+            "uid": "bccf8f1e802d8301fabe5ffee5a03300",
+            "username": "lonnen"
+        },
+        "merkle_root": {
+            "ctime": 1419378229,
+            "hash": "b49093db75b1552b70c2dd22905e923a1b2e989772602295616aed4771f95254649e4a8f19edcd1fa69afe5c124f4811f06308e97cb95e0b4f0fbcfafe05a25c",
+            "seqno": 115809
+        },
+        "service": {
+            "hostname": "xor.lonnen.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1419378317,
+    "expire_in": 157680000,
+    "prev": "3ecdbd100b87e2b18b665cd262e303106ce1d1beb0ec8df143e6c01826bb161d",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkntQVFUcx5cVREiEFCFoQ9hJd1JczrnvC8RAgDVAEwKJhc1yH+eyF+HeZXcF
+GcMmBaWQUhkhwIESpkGScMgZh0c2vHqhqaVjD7QZw7EloWF2Io1iupdoyvvXuef3
+Od/f93t+52jQCoPRZ+52zPQ10+jLPhMe3pDXvFi/z8yrYqU5fp9ZKJGR4tZXCleK
+zPHm3aiS51zIKqvRiioia7ErepmJNZcjp0tWFY0CVtqKm6tidVw/LMlKEXI6nLKu
+ZWZYSRIkQmRxgiEphkY8BUSC4iSIMAwiTiSgIOAkp0naVZf7oa7mJU2bLGq722C6
+xqenpBEwNRUnU7TanqUCLwgSo6kxABMZHECJ4xEpSQiRHMBxAHTQhZzLkUpURUGK
+7rYUOXeXIJtTVZciC25ZByABWZxmMIzV/HAuu96AYAGLizxN8pAkMZ4GAiaKGgFI
+xGI4B3kMsQxL0xgFtF2SghSHRIKmocSSGElQBIsITrPIIlEQNX8Uy0mIFCBGSAQD
+oQQoHDCIpQWeJRHgCQlIvCBpDCA5jBS0AC5UpqiaOUgygK3S/53lsoB03/qlLWfb
+qzqt/+SzCmqpdszhVN2qoJZoNbvb7YjXY7srHTpbgXhbz7KMjZcVURva/6cKNfTh
+K8EhHWtGex2yE9lknSBpigHap/dB5ZomjgSRFyEAvDZmjIcMT1GkIGIUhnCAQ0AJ
+CIqQRzxAAiNKkMARJQDIYBTPQwqK/wUlNJ9ckSbpkosUzr3HicxVbxhNvgYfo2Gl
+n1F/tobAgJB/3zKKCTE0PzhVX98TeWf+QR7dG12VmNn6bfDXNfYbo8EvGD69935W
+b/40deq+T2viSNhLaV34+aCad7ddaOwV37PcsLzV5aotDpTH8oxtMRPGY5fSPV09
+mc+FEpyXrm0OS575o2H0EMX6De/cUDds8WyxbLepJW2yKd//2F/Xkj/yVneUzajC
+xV15uecWPm7NuOLtHn1TwbbWLbz4eN9Q3u3snCSp9tf26vWNT++4sJ7vGl9n+iDp
+ZL7r7OqW3wLnhspfu5vLfp5DRDXUDMjZV05sEneEDkZc3Z/cPXg4bSDy7fmokx1j
+t8oOjOdkhxdkzNaf35625jT9VbiSO3Q5dGNm8K3KgIiRwleOE+FdYe6clHZu1D/b
+pyV6c2TUSGd1v/9+NBuxuvGTIwVVze1bfNcmFLzjG/t7VMXMRGG65XRL7LmErD5H
+UZhvnKfp8tYfooZD7asOMusmn6iOq4j7QsUW7twsbDu62P1hwqZXjZ7XOZl5ZlGe
+PZ6alXco1hYK1kRijR78O+uT5GcbvDOLl+jH+ueVqJ9Mhz11B84EB6xV/CvH7joH
+xsZzu494+yyTU1cb6LLEjT+e+P7sxPWkpiDmYvWf95+tfcqU/3On3+Qjub1h3qYV
+QlzYmcHpiJsdxVNzPvlz31Bt18ftmzsftT0/tSrbaPnSYK4LSg5I9d05sSukyXqv
+dOXB/oyUX/4G
+=wFei
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lonnen
+
+==================================================================
