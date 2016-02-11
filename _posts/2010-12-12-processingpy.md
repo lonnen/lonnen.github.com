@@ -1,6 +1,7 @@
 ---
 title: Processing.py
 layout: post
+summary: Introducing Processing's latest flavor -- Python. Some examples, links, and a brief look at the full ecosystem of Processing implementations.
 ---
 While Processing is a Java-based language, there have been implementations of it (with varying degrees of fidelity) in a few other languages. The best known of these is probably [Processing.js](http://processingjs.org/), a brilliant bit of JavaScript that enables many Processing sketches to run *unmodified* in web browsers. There are other implementations that hybridize Processing with [Ruby](https://github.com/jashkenas/ruby-processing/blob/master/README), [Scala](http://technically.us/spde/About), [CPython](http://code.google.com/p/pyprocessing/), and more. [J. Feinberg](http://mrfeinberg.com/)'s [Processing.py](https://github.com/jdf/processing.py) project is relatively new to this group, and I really like what he's done with it so far.
 

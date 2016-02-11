@@ -1,9 +1,10 @@
 ---
 title: Introducing Introspecting
 layout: post
+summary: A Firefox 4 add-on developer tool for Processing.js
 ---
 
-Coincident with the release of [Processing.js 1.1](http://processingjs.org/), I'd like to announce [Introspecting](https://github.com/Lonnen/Introspecting"&gt;Introspecting 0.1) -- an add-on for Firefox 4+ to assist in Processing.js development. At this time, it provides a command-line-like-interface for interacting with Processing.js sketches embedded in webpages. 
+Coincident with the release of [Processing.js 1.1](http://processingjs.org/), I'd like to announce [Introspecting](https://github.com/Lonnen/Introspecting"&gt;Introspecting 0.1) -- an add-on for Firefox 4+ to assist in Processing.js development. At this time, it provides a command-line-like-interface for interacting with Processing.js sketches embedded in webpages.
 
 To install, visit the project's [github page](https://github.com/Lonnen/Introspecting), hit the 'Downloads' button, select 'introspecting.xpi' and drag the file onto your Firefox window. No restart is required.
 
