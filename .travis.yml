@@ -1,0 +1,7 @@
+sudo: no
+language: ruby
+install:
+  - gem install jekyll
+  - gem install kramdown
+script:
+  - jekyll build --trace
