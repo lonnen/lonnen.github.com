@@ -1,2 +1,4 @@
 pigments: true
-markdown: rdiscount
+markdown: kramdown
+kramdown:
+    parse_block_html: true
