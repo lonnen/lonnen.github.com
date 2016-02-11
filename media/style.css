@@ -87,9 +87,8 @@ table {
 
 body {
     font-weight: normal;
-    color: #727373;
     color: #483318;
-    border-top: 3px solid;
+    border-top: 3px solid #3A8AD3;
     font-size: 17px;
     line-height: 30px;
     font-family: SourceSansProRegular, Helvetica, sans-serif;
@@ -105,7 +104,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Futura", sans-serif;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
 }
 
 address {
@@ -117,11 +116,11 @@ address {
 
 header {
     margin: 0 0 20px 0;
-    border-bottom: 1px solid #333333;
     font-family: "Futura", sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
+    background-color: #dddddd;
 }
 
 header ul {
@@ -144,22 +143,25 @@ header a:visited {
 header a:hover {
     text-decoration: none;
     background: #eeeeee;
+    color: #3A8AD3;
 }
 
 .logo a {
     color: #ffffff !important;
-    background-color: #333333;
+    background-color: #3A8AD3;
     font-weight: 800;
     font-size: 18px;
 }
 
 .logo a:hover {
+    color: #3A8AD3 !important;
     backgound: #444444;
 }
 
 #intro {
     font-size: 26px;
     line-height: 1.2;
+    margin: 50px 30px;
 }
 
 
@@ -168,6 +170,7 @@ article > #page-header {
 }
 
 section h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 28px;
     color: #332411;
 }
@@ -193,16 +196,16 @@ article h2 {
 /** Links **/
 
 a {
-    color: #146894;
+    color: #3A8AD3;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #3A8AD3;
 }
 
 a:visited {
-    color: #441d7b;
+    color: #3A8AD3;
 }
 
 /** Lists **/
@@ -240,6 +243,10 @@ pre {
 
 /** Homepage **/
 
+#posts {
+    font-size: 13px;
+}
+
 #posts ul {
     text-indent: 0;
 }
@@ -248,22 +255,30 @@ pre {
     content: none;
 }
 
+#posts ul li {
+    margin: 50px 0;
+}
+
+#posts h1 {
+    margin: 16px 0;
+}
+
 #posts time {
-    font-family: UbuntuMonoRegular, monospace;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    color: #CCCCCC;
+    margin: 2px 8px 0 4px;
 }
 
-#projects dt {
-    clear: both;
-    padding-right: 4px;
+#posts .post-content,
+#posts .post-summary {
+    font-size: 16px;
 }
 
-#projects dt:after {
-    content: ":";
-}
-
-#projects dt,
-#projects dd {
-    float: left;
+/* newline at end of .md file always results in an empty p tag */
+.link p:last-of-type {
+    margin: 0;
 }
 
 .gist-highlight {
@@ -317,8 +332,12 @@ pre {
     float: right;
 }
 
+.rss img {
+    height: 4em;
+}
+
 .idl img {
-    height: 6em;
+    height: 5em;
     margin-top: -0.5em;
 }
 
