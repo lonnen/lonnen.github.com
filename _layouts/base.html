@@ -10,13 +10,18 @@
           title="Feed of latest posts">
   </head>
   <body>
+  <div class="container">
+    <header>
+        <ul>
+          <li class="logo"><a href="#">XOR</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">missives</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+    </header>
+
     {{ content }}
-    <!--
-    <a href="#" style="position: absolute; top: 0; right: 0" onclick="toggle()">toggle</a>
-    <script>
-      toggle = function(){ document.body.classList.toggle('grid'); return false; }
-    </script>
-    -->
+
     <section class="footer">
       <div class="contact">
         <p>
@@ -58,5 +63,7 @@
         document.getElementsByTagName('body')[0].appendChild(idl);
     })();
     </script>
+    <!-- end banner -->
+  </div>
   </body>
 </html>

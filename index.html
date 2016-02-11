@@ -2,27 +2,24 @@
 layout: base
 title: Chris Lonnen
 ---
-
-<section id="about">
-  <h1>X&#8853;R | Chris Lonnen</h1>
-  <p>
-    I like solving puzzles and writing programs.<br />
-    I work for Mozilla, where these activities often overlap.
-  </p>
+<section id="intro">
+  I solve problems and write programs. <br /> I work for Mozilla, where these activities often overlap.
 </section>
+
 <section id="posts">
-  <h1>Missives</h1>
   <ul>
     {% for post in site.posts %}
-    <li>
+    <li class="post">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="post-summary">{{ post.summary }}</p>
       <time datetime="{{ post.date|date:"%Y-%m-%d" }}">
         {{ post.date|date:"%b %d %Y" }}
       </time>
-      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>
 </section>
+
 <section id="projects">
   <h1>Things I've worked on</h1>
   <ul>

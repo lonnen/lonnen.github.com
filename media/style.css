@@ -1,28 +1,39 @@
-/* http://meyerweb.com/eric/tools/css/reset/ */
-/* v1.0 | 20080212 */
+/**
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	outline: 0;
 	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
-	background: transparent;
 }
-ul {
-    list-style-type: none;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-ol {
-    margin-left: 20px;
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -32,27 +43,14 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
-
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
-}
-del {
-	text-decoration: line-through;
-}
-
-/* tables still need 'cellspacing="0"' in the markup */
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-/** Normal stying. **/
+/**
+ * Normal stying.
+ */
 
 @font-face {
     font-family: "LiberationMonoRegular", sans-serif;
@@ -91,27 +89,23 @@ body {
     font-weight: normal;
     color: #727373;
     color: #483318;
-    width: 40em;
-    margin: 0 auto 20px;
-    padding: 20px 0 0;
-    border-top: 8px solid;
-    line-height: 24px;
+    border-top: 3px solid;
+    font-size: 17px;
+    line-height: 30px;
     font-family: SourceSansProRegular, Helvetica, sans-serif;
 }
 
-body.grid {
-    background-image: url(baseline.gif);
+.container {
+    width: 700px;
+    margin: 0 auto;
 }
 
 /** Headings **/
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Futura", sans-serif;
+    font-weight: bold;
     margin: 20px 0;
-}
-
-section, header {
-    display: block;
 }
 
 address {
@@ -121,26 +115,72 @@ address {
 
 /** Articles & Sections **/
 
-article > header {
+header {
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #333333;
+    font-family: "Futura", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header a,
+header a:visited {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 155px;
+    color: #333333;
+}
+
+header a:hover {
+    text-decoration: none;
+    background: #eeeeee;
+}
+
+.logo a {
+    color: #ffffff !important;
+    background-color: #333333;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.logo a:hover {
+    backgound: #444444;
+}
+
+#intro {
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+
+article > #page-header {
     margin-bottom: 24px;
 }
 
-section h1,
-article header h1 {
+section h1 {
     font-size: 28px;
     color: #332411;
-    margin: 5px 0;
 }
 
-section h1 {
-    margin-bottom: 18px;
+article #page-header h1 {
+    margin: 5px 0;
 }
 
 section {
     margin-bottom: 18px;
 }
 
-article header h1 + .byline {
+article #page-header h1 time {
     line-height: 24px;
     font-size: 14px;
     color: #555;
