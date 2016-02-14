@@ -1,7 +1,8 @@
 ---
 title: Algorithm P(ython)
-layout: post
 summary: A transcription of Knuth's Algorithm P into Python.
+layout: post
+type: post
 ---
 
 A while ago a friend sent me a simple puzzle: write a program that enumerates all sets of nested parenthesis. I started with an intractable, naive solution and after some discussion and a dead end or two I wound up with a decent dynamic programming solution.

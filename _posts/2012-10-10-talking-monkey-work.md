@@ -1,7 +1,8 @@
 ---
 title: "Some things... are talking monkey work."
+summary: While working in a computational epidemiology lab I learned about the power of automation.
 layout: post
-summary: While working in a computational epidemiology lab I learned about the power of automation. 
+type: post
 ---
 
 > "It's a big universe Jerry, and some things in it are talking monkey work"

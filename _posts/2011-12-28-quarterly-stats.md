@@ -1,7 +1,8 @@
 ---
 title: "Quarterly Stats"
-layout: post
 summary: Some scripts I wrote to get analytics out of our version control system.
+layout: post
+type: post
 ---
 
 The quarter (and year) are winding down, and on the [Socorro](https://github.com/mozilla/socorro) team we're looking back at what we've accomplished. In addition to stats from our bugtracker and quarterly goals lists, we use the following scripts to derive additional data points from our source control. These give us an idea of what we've done well, where we can improve, and what kind of performance we can expect for the upcoming quarter.

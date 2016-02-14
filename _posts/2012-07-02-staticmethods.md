@@ -1,7 +1,8 @@
 ---
 title: "Static methods and inheritance"
-layout: post
 summary: I respond to a post about python's static methods, argue they are a code smell, and present some alternatives.
+layout: post
+type: post
 ---
 
 My colleague Peter Bengtsson recently published a blog post about the `@staticmethod` decorator introduced in Python 2.2. Specifically, he argues that `@staticmethod` is useful for functions called exclusively from object methods, where a developer may want to change the object's behavior by overriding that static method in a subclass. Take a minute to skim his [short post](http://www.peterbe.com/plog/newfound-love-of-staticmethod) and familiarize yourself with the context.

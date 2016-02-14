@@ -1,7 +1,8 @@
 ---
 title: "Feedback and Interaction"
-layout: post
 summary: I'm launching an experiment into Holman-style interaction via Github.
+layout: post
+type: post
 ---
 
 As an additional channel of communication I've cribbed

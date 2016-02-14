@@ -1,7 +1,8 @@
 ---
 title: "Undirected Graphs in Python"
-layout: post
 summary: An quick implementation of undirected graphs in python.
+layout: post
+type: post
 ---
 
 A straightforward way to implement undirected graphs in python.

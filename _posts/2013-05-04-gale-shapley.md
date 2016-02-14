@@ -1,7 +1,8 @@
 ---
 title: "Applied Matching Algorithms"
-layout: post
 summary: Mozilla Summit is coming to three simultaneous locations. Here is how the WebDev group is using an operations research algorithms to decide where to send people.
+layout: post
+type: post 
 ---
 
 Matching problems concern themselves with pairing things up. There are many variations across graph theory, economics, and operations research where the goal is to seek some set of matches with a particular set of properties.

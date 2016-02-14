@@ -1,7 +1,8 @@
 ---
 title: "Building Vim"
-layout: post
 summary: Compiling Vim from source on OSX to upgrade the builtin version.
+layout: post
+type: post
 ---
 
 OSX's included version of Vim has done well by me for a while, but I've hit the point where I desire some features from newer versions. MacVim is popular among my colleagues, but I like staying in my terminal. It helps to keep my development environment consistent when I'm SSH'd into a dev box, or a virtual machine, or working on a non-Mac.

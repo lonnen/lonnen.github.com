@@ -170,7 +170,7 @@ header a:hover {
     margin: 0 30px 50px 30px;
 }
 
-article h1 {
+.container h1 {
     font-size: 36px;
 }
 
@@ -210,7 +210,9 @@ a:visited {
 /** Lists **/
 
 p + ul {
-    margin: 12px 0;
+    margin: 12px;
+	list-style: square;
+    list-style-position: inside;
 }
 
 /** Misc **/
@@ -220,6 +222,7 @@ blockquote {
     padding: .6em;
 }
 
+h1 + p,
 p + p,
 blockquote + p,
 .gist {
@@ -276,6 +279,28 @@ pre {
     font-size: 18px;
 }
 
+.post:last-of-type{
+    margin-bottom: 0 !important;
+}
+
+#more-posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#more-posts a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 8px;
+}
+
+#more-posts a:hover {
+    background: #eeeeee;
+}
+
 /* newline at end of .md file always results in an empty p tag */
 .link p:last-of-type {
     margin: 0;
@@ -307,20 +332,14 @@ pre {
     width: 2.5ex;
 }
 
-.warning {
-    background: rgba(230, 230, 0, .3);
-    padding: .2em;
-    border: 1px dashed rgb(72, 51, 24);
-}
-
 .footer {
     font-size: 80%;
     color: rgb(102, 102, 102);
     border-top: 4px solid;
-    margin-top: 2em;
+    margin-top: 14px;
     overflow: hidden;
     width: 100%;
-    padding-top: 0.4em;
+    padding-top: 10px;
 }
 
 .contact {

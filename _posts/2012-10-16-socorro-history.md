@@ -1,7 +1,8 @@
 ---
 title: "Socorro Project History"
-layout: post
 summary: Links to a gource visualization of the Socorro project's five year history.
+layout: post
+type: post
 ---
 
 At Mozilla, I spend most of my time contributing to the [Socorro Project](https://github.com/mozilla/socorro). For the curious, I ran the repository history through Andrew Caudwell's [Gource](https://github.com/acaudwell/Gource). The result is a nearly two hour silent visualization of the project's five year history.

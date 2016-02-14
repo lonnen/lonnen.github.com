@@ -1,7 +1,8 @@
 ---
 title: Homebrewing autoconf213
-layout: post
 summary: Homebrew is an excellent package manager for OS X. When I went to build Firefox earlier today it had most of the required packages available for me, but was missing autoconf213. Here's how to work around that.
+layout: post
+type: post
 ---
 
 [Homebrew](http://mxcl.github.com/homebrew/) is an excellent package manager for OS X. When I went to build Firefox earlier today it had most of the required packages available for me, but was missing autoconf213.
