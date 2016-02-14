@@ -5,7 +5,7 @@ title: "Missives"
 
 <section id="intro">
 I have no taste for either poverty or honest labor,<br />
-so thought leadership is the only recourse left me.
+so thought leadership is the only recourse left to me.
 </section>
 
 <section id="posts">
