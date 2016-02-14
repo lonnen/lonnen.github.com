@@ -1,4 +1,16 @@
 /**
+ * color pallette
+ *  http://www.colourlovers.com/palette/1561495/399_cool_guys_:%29
+ *
+ * #FB6F24 - warning highlight
+ * #8CA315 - neutral highlight
+ * #5191C1 - light
+ * #1E6495 - mid
+ * #0A4B75 - dark
+ *
+ */
+
+/**
  * http://meyerweb.com/eric/tools/css/reset/
  * v2.0 | 20110126
  * License: none (public domain)
@@ -88,15 +100,23 @@ table {
 body {
     font-weight: normal;
     color: #483318;
-    border-top: 3px solid #3A8AD3;
+    border-top: 3px solid #1E6495;
     font-size: 18px;
     line-height: 30px;
     font-family: SourceSansProRegular, Helvetica, sans-serif;
 }
 
 .container {
-    width: 700px;
+    min-width: 320px;
+    max-width: 700px;
     margin: 0 auto;
+}
+
+@media all and (max-width: 700px) {
+    body > .container > *  {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
 }
 
 /** Headings **/
@@ -127,13 +147,17 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     background-color: #dddddd;
+    border-bottom: 1px #aaaaaa solid;
 }
 
 header ul {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
     list-style: none;
+}
+
+header li {
+    flex: 1 auto;
 }
 
 header a,
@@ -142,26 +166,34 @@ header a:visited {
     display: block;
     text-align: center;
     padding: 10px;
-    width: 155px;
     color: #333333;
 }
 
 header a:hover {
     text-decoration: none;
     background: #eeeeee;
-    color: #3A8AD3;
+    color: #0A4B75;
+    border-bottom: 1px #0A4B75 solid;
 }
 
 .logo a {
+    flex: 1 100%;
     color: #ffffff !important;
-    background-color: #3A8AD3;
+    background-color: #1E6495;
     font-weight: 800;
     font-size: 18px;
+    border-bottom: 1px #0A4B75 solid;
 }
 
 .logo a:hover {
-    color: #3A8AD3 !important;
+    color: #1E6495 !important;
     backgound: #444444;
+}
+
+@media all and (min-width: 620px) {
+    header li {
+        flex: auto;
+    }
 }
 
 #intro {
@@ -183,28 +215,22 @@ article time {
 
 article h2 {
     font-size: 22px;
-    text-shadow:
-        -1px -1px 0 #fff,
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-        1px 1px 0 #fff;
-    padding: 0 0 -2px 0;
-    border-bottom: 1px solid #333333;
+    margin: 20px 0 15px 0;
 }
 
 /** Links **/
 
 a {
-    color: #3A8AD3;
+    color: #1E6495;
     text-decoration: none;
 }
 
 a:hover {
-    color: #3A8AD3;
+    color: #5191C1;
 }
 
 a:visited {
-    color: #3A8AD3;
+    color: #1E6495;
 }
 
 /** Lists **/
@@ -338,7 +364,6 @@ pre {
     border-top: 4px solid;
     margin-top: 14px;
     overflow: hidden;
-    width: 100%;
     padding-top: 10px;
 }
 
