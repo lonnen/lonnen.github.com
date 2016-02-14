@@ -1,15 +1,16 @@
 ---
 layout: base
-title: Chris Lonnen
+title: "Missives"
 ---
+
 <section id="intro">
-  I make things and solve problems.<br />
-  I work for Mozilla, where these activities often overlap.
+I have no taste for either poverty or honest labor,<br />
+so thought leadership is the only recourse left me.
 </section>
 
 <section id="posts">
   <ul>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts %}
       {% if post.type == 'link' %}
         <li class="post link">
           <h1><a href="{{ post.link }}">{{ post.title }}</a></h1>
@@ -33,7 +34,4 @@ title: Chris Lonnen
       {% endif %}
     {% endfor %}
   </ul>
-  <p id="more-posts">
-    <a href="/missives">more posts</a>
-  </p>
 </section>

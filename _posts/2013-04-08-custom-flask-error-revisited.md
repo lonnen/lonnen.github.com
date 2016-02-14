@@ -1,6 +1,8 @@
 ---
 title: "Custom Error Responses in Flask: Revisited"
+summary: Flask provides an easier method of implementing custom responses.
 layout: post
+type: post
 ---
 
 In [an earlier post](http://xor.lonnen.com/2012/12/30/custom-flask-error.html) I wrote up a method of returning unimplemented status codes in Flask based on subclassing `werkzeug.exceptions.HTTPException`.

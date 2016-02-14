@@ -1,6 +1,8 @@
 ---
 title: "Setting up OSX and iTerm2 for Emacs"
+summary: Some notes from my experience getting started with Emacs on OSX.
 layout: post
+type: post
 ---
 
 I've decided to give Emacs a spin as my primary editor in January. Learning a new editor has been refreshing, but OSX got in my way a few times when I was setting things up. Many thanks are owed to [James Long](http://jlongster.com/) for helping me with that. I wanted to share some of my experience for other curious parties encountering similar problems.

@@ -1,6 +1,8 @@
 ---
 title: "Pre-Integration Testing"
+summary: Setting up litl's Leeroy at Mozilla, and how pre-integration testing has dramatically improved our day-to-day development.
 layout: post
+type: post
 ---
 
 Reviewing a pull request to [Socorro](https://github.com/mozilla/socorro) involves a series of filtering steps up front before the reviewer even considers the substance of the proposed change -- does it violate the style guide? Does it pass our test suite? Most of these are checked by our CI server runs _after_ an SCM change. It's always embarrassing when you've thoroughly reviewed and merged a commit to find that it broke the build; and it effectively blocks the rest of the team from working while you sort out the failure.

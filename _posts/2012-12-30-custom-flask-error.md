@@ -1,6 +1,8 @@
 ---
 title: "Custom Error Responses in Flask"
+summary: Easily implementing custom response types in Flask.
 layout: post
+type: post
 ---
 
 Update 2012-04-08: [there's a simpler way](http://xor.lonnen.com/2013/04/08/custom-flask-error-revisited.html)

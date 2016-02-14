@@ -1,6 +1,8 @@
 ---
 title: "Building a Shanty Town"
+summary: We've started using Puppet and Vagrant for building dev environments. Here are the pitfalls I've encountered, workaround for these pain points, and links to resources if you're thinking about doing the same.
 layout: post
+type: post
 ---
 
 November and December have been a period of heavy investment in creating or enhancing the [Vagrant](http://vagrantup.com/) infrastructure on Mozilla's [Socorro](https://github.com/mozilla/socorro) and [DXR](https://github.com/mozilla/dxr/) projects. Vagrant is a lightweight VM management tool for Virtual Box VMs. Coupled with Puppet or Chef it provides a reproducible sandbox for locally deploying projects in a production-like environment. You can store the scripts in your project's repository and share the folder from your host machine into the VM. Develop your files locally, and changes are automatically mirrored into the VM without needing `scp` or external synchronization.

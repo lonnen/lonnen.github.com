@@ -1,6 +1,8 @@
 ---
 title: "Webapp Error Reporting"
+summary: Discussing plans for transforming Socorro into a webapp error report aggregation service.
 layout: post
+type: post
 ---
 
 I've been playing around with JavaScript error reporting, lately. It started last September, when my team started thinking about [ways to offer Socorro as a Service](http://www.twobraids.com/2012/11/socorro-as-service.html). A month later I found myself at the Mozilla Festival, where Popcorn Maker 1.0 had just launched, complete with a client-side error reporter. I got to spend some time chatting with [Dave Humphrey](http://vocamus.net/dave/?p=1532) and [David Bruant](https://twitter.com/DavidBruant) about the challenges and rewards of web app error reporting, and brought those discussions back to the WebTools team.

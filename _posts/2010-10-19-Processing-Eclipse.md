@@ -1,6 +1,8 @@
 ---
 title: "Processing &amp;&amp; Eclipse"
+summary: An update on my work with Processing and the launch of an Eclipse plug-in supporting the language.
 layout: post
+type: post
 ---
 
 For the last several months I've been able to work full time on [Processing](http://processing.org/) thanks to generous support from the good folks at [Fathom](http://fathom.info/). Most of my efforts in that time have been devoted to developing a Processing Plug-in for [Eclipse](http://www.eclipse.org/). Unlike p5exporter or some of the tutorials for using Processing Java libraries in Eclipse Java projects, this plug-in aspires to provide support for the language proper.
