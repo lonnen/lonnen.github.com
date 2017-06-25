@@ -1,9 +1,0 @@
-sudo: no
-language: ruby
-install:
-  - gem install jekyll
-  - gem install kramdown
-rvm:
-  - 2.0.0
-script:
-  - jekyll build --trace

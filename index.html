@@ -1,39 +1,20 @@
----
-layout: base
-title: Chris Lonnen
----
-<section id="intro">
-  I make things and solve problems.<br />
-  I work for Mozilla, where these activities often overlap.
-</section>
-
-<section id="posts">
-  <ul>
-    {% for post in site.posts limit:10 %}
-      {% if post.type == 'link' %}
-        <li class="post link">
-          <h1><a href="{{ post.link }}">{{ post.title }}</a></h1>
-          <p class="post-content">{{ post.content | markdownify }}</p>
-          <a href="{{ post.url }}">#
-          <time datetime="{{ post.date|date:"%Y-%m-%d" }}">
-            {{ post.date|date:"%B %d %Y" }}
-          </time>
-          </a>
-        </li>
-      {% else %}
-        <li class="post">
-          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-          <p class="post-summary">{{post.summary }}</p>
-          <a href="{{ post.url }}">#
-          <time datetime="{{ post.date|date:"%Y-%m-%d" }}">
-            {{ post.date|date:"%B %d %Y" }}
-          </time>
-        </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  <p id="more-posts">
-    <a href="/missives">more posts</a>
-  </p>
-</section>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lonnen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/media/style.css">
+  </head>
+  <body>
+    <div>
+      <h1>
+        <a href="https://github.com/lonnen/">LO</a><a href="https://keybase.io/lonnen">NN</a><a href="https://twitter.com/lonnen">EN</a>
+      </h1>
+      <p>
+         <a href="http://xor.lonnen.com/key.asc">89FF CF4D 9348 5687 EB60 D46A F1E2 21EA D41C C35A</a>
+      </p>
+    </div>
+    <script defer src="/media/script.js?x"></script>
+  </body>
+</html>
