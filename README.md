@@ -10,4 +10,4 @@ I write less software these days than I once did, and most of what I write is on
 
 ## about xor
 
-xor has existed in one form or another since 2005. The current iteration is hosted on github pages, with background images provided by [Unsplash](https://unsplash.com/) and fonts by [Font Squirrel](http://www.fontsquirrel.com/fonts/source-sans-pro).
+xor has existed in one form or another since 2005. The current iteration is hosted on github pages, with fonts by [Font Squirrel](http://www.fontsquirrel.com/fonts/source-sans-pro).
