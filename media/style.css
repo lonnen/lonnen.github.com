@@ -36,8 +36,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
- background: url(https://source.unsplash.com/category/nature/) no-repeat center center fixed;
- background-size: cover;
+ background: rgb(40,42,54);
+ background: linear-gradient(90deg, rgba(40,42,54,1) 0%, rgba(96,65,52,1) 100%);
 
  font-family: SourceSansProRegular, Helvetica, sans-serif;
  font-size: 21px;
